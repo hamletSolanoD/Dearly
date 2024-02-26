@@ -11,17 +11,25 @@
         }
         .checkbox-list {
             list-style: none; /* Remueve los estilos predeterminados de lista */
+            border: 2px solid #444; /* Borde alrededor del contenedor */
             padding: 0; /* Remueve el padding predeterminado de lista */
         }
         .checkbox-list li {
-            margin-bottom: 10px; /* Espacio entre los elementos de la lista */
+            padding: 8px;
         }
         .checkbox-list input[type="checkbox"] {
             accent-color: red; /* Color del checkbox para navegadores modernos */
             margin-right: 10px; /* Espacio entre el checkbox y el texto */
         }
+        ul{
+            max-height: 150px;
+            min-height: 150px;
+            overflow-y: auto;
+        }
         .checkbox-list label {
             cursor: pointer; /* Cambia el cursor a un puntero */
+            padding: 0px; /* Espacio alrededor del contenido en cada elemento de la lista */
+            
         }
     </style>
 </head>
@@ -38,6 +46,66 @@
             <label>
                 <input type="checkbox" name="moments" value="picnic-with-friends">
                 Picnic with friends
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
+            </label>
+        </li>
+        <li>
+            <label>
+                <input type="checkbox" name="moments" value="romantic-dinner">
+                Romantic dinner
             </label>
         </li>
         <li>
