@@ -6,11 +6,11 @@
     <!-- Asegúrate de incluir el CDN de Font Awesome si planeas usar íconos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        body {
-            margin: 0;
-            font-family: 'Roboto Mono', monospace;
-            margin-left: 5%;
-        }
+            body {
+                margin: 0;
+                font-family: 'Roboto Mono', monospace;
+                margin-left: 5%;
+            }
         .top-bar {
             width: 100%;
             background-color: #161616;

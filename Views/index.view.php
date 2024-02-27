@@ -10,9 +10,10 @@
             padding: 0;
             overflow-x: hidden; /* Previene desplazamiento lateral en todo el documento */
             overflow-y: hidden; /* Previene desplazamiento vertical en todo el documento */
-            box-sizing: border-box;
             height: 100%;
+            width: 100%;
             font-family: 'Roboto Mono', monospace;
+            color: white;
         }
 
         .left-bar {

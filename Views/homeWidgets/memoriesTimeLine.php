@@ -5,11 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Memory Timeline Calendar</title>
 <style>
-  body {
-    background-color: #333;
-    font-family: Arial, sans-serif;
-    color: white;
-  }
+
   .calendar {
     text-align: center;
   }

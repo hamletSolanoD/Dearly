@@ -4,14 +4,7 @@
     <meta charset="UTF-8">
     <title>On Going Projects</title>
     <style>
-        body {
-            font-family: 'Roboto Mono', monospace;
-            background: #161616; /* Cambiar al color de fondo deseado */
-            color: white;
-            width: 100%;
-            height: 100%;
-            overflow-x: hidden; /* Previene desplazamiento lateral en todo el documento */
-        }
+ 
         .title {
             padding-bottom: 5%;
             padding-left: 1%;

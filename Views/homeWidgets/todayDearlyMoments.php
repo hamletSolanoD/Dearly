@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <title>Today Dearly Moments</title>
     <style>
-        body {
-            background-color: #000; /* Fondo oscuro */
-            color: #fff; /* Texto blanco */
-            font-family: 'Roboto Mono', monospace; /* Estilo de fuente */
-        }
+ 
         .checkbox-list {
             list-style: none; /* Remueve los estilos predeterminados de lista */
             border: 2px solid #444; /* Borde alrededor del contenedor */
             padding: 0; /* Remueve el padding predeterminado de lista */
+            overflow-y: auto;
+            height: 70%;
+
         }
         .checkbox-list li {
             padding: 8px;
@@ -20,11 +19,6 @@
         .checkbox-list input[type="checkbox"] {
             accent-color: red; /* Color del checkbox para navegadores modernos */
             margin-right: 10px; /* Espacio entre el checkbox y el texto */
-        }
-        ul{
-            max-height: 150px;
-            min-height: 150px;
-            overflow-y: auto;
         }
         .checkbox-list label {
             cursor: pointer; /* Cambia el cursor a un puntero */
